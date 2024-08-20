@@ -33,3 +33,6 @@ add_service(system_server, powershare_manager_service);
 
 # Let system server toggle xtra-daemon
 set_prop(system_server, xtra_control_prop)
+
+# Freeform
+add_service(system_server, lmo_freeform_service);

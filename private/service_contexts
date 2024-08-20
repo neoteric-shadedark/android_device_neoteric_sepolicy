@@ -12,3 +12,6 @@ app_lock                                  u:object_r:app_lock_service:s0
 
 # PowerShare
 power_share                               u:object_r:powershare_manager_service:s0
+
+# Freeform
+lmo_freeform                              u:object_r:lmo_freeform_service:s0

@@ -12,3 +12,6 @@ type app_lock_service, system_api_service, system_server_service, service_manage
 
 # PowerShare
 type powershare_manager_service, system_api_service, system_server_service, service_manager_type;
+
+# Freeform
+type lmo_freeform_service, system_api_service, system_server_service, service_manager_type;
