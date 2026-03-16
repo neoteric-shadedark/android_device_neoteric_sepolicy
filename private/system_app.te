@@ -4,3 +4,6 @@ hal_client_domain(system_app, hal_lineage_touch)
 
 # PIHooks
 set_prop(system_app, pih_disable_prop)
+
+# Custom ROM Hide
+allow system_app custom_rom_hide_data_file:file { create open read write getattr setattr unlink };
