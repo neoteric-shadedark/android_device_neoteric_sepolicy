@@ -1,3 +1,6 @@
 # Allow access to the HALs
 hal_client_domain(system_app, hal_lineage_fastcharge)
 hal_client_domain(system_app, hal_lineage_touch)
+
+# PIHooks
+set_prop(system_app, pih_disable_prop)
